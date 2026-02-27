@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "slug": "operations-optimization",
+    "title": "Operations Optimization",
+    "description": "Streamlining processes to maximize efficiency and reduce operational bottlenecks.",
+    "icon": "Settings"
+  },
+  {
+    "id": "2",
+    "slug": "data-analytics-bi",
+    "title": "Data Analytics & BI",
+    "description": "Leveraging data to uncover actionable insights and drive strategic decision-making.",
+    "icon": "BarChart"
+  },
+  {
+    "id": "3",
+    "slug": "business-expansion-strategy",
+    "title": "Business Expansion Strategy",
+    "description": "Architecting blueprints for sustainable growth and market penetration.",
+    "icon": "TrendingUp"
+  },
+  {
+    "id": "4",
+    "slug": "digital-transformation",
+    "title": "Digital Transformation",
+    "description": "Guiding organizations through comprehensive technological evolution.",
+    "icon": "Cpu"
+  },
+  {
+    "id": "5",
+    "slug": "custom-applications",
+    "title": "Custom Applications",
+    "description": "Developing tailored software solutions to meet unique business challenges.",
+    "icon": "Code"
+  }
+]

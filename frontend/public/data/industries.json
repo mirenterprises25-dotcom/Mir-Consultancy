@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "slug": "restaurants-fast-food",
+    "title": "Restaurants & Fast Food",
+    "description": "Scaling dining experiences and optimizing kitchen operations for global food brands.",
+    "image_url": "None"
+  },
+  {
+    "id": "2",
+    "slug": "hotels-hospitality",
+    "title": "Hotels & Hospitality",
+    "description": "Elevating guest experiences and streamlining property management for luxury stays.",
+    "image_url": "None"
+  },
+  {
+    "id": "3",
+    "slug": "retail-grocery",
+    "title": "Retail & Grocery",
+    "description": "Transforming supply chains and amplifying customer experiences in modern retail.",
+    "image_url": "None"
+  },
+  {
+    "id": "4",
+    "slug": "tourism-businesses",
+    "title": "Tourism Businesses",
+    "description": "Driving destination growth through strategic planning and digital transformation.",
+    "image_url": "None"
+  },
+  {
+    "id": "5",
+    "slug": "future-industry",
+    "title": "Future Industry",
+    "description": "Pioneering solutions for tomorrow's emerging markets and disruptive technologies.",
+    "image_url": "None"
+  }
+]

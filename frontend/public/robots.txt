@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mirenterprises25-dotcom.github.io/Mir-Consultancy/sitemap.xml

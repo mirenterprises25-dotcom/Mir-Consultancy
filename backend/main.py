@@ -1,0 +1,33 @@
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from database import engine, Base
+from routers import api_router
+
+# Create database tables
+Base.metadata.create_all(bind=engine)
+
+app = FastAPI(
+    title="Mir Consultancy API",
+    description="API for Mir Consultancy Website Platform",
+    version="1.0.0"
+)
+
+# CORS configuration for development
+origins = [
+    "http://localhost:5173", # Vite dev server
+    "http://127.0.0.1:5173",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(api_router, prefix="/api")
+
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to Mir Consulting API. Access /docs for documentation."}

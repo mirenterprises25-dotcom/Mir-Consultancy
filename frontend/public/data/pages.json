@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "slug": "our-idea",
+    "title": "Our Idea",
+    "content": "Mir Consultancy was founded on the principle that true value is created at the intersection of deep industry expertise and innovative technology..."
+  },
+  {
+    "id": "2",
+    "slug": "company-future",
+    "title": "Company Future",
+    "content": "As part of Mir Enterprises, we are building a scalable ecosystem of businesses that share a unified vision for operational excellence..."
+  },
+  {
+    "id": "3",
+    "slug": "our-history",
+    "title": "Our History",
+    "content": "From a single visionary to a global consulting powerhouse, our journey has been defined by a relentless pursuit of impact..."
+  }
+]

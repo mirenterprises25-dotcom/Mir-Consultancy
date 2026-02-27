@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Mir AbdulRehman",
+    "role": "Founder & Managing Partner",
+    "bio": "Visionary leader with a track record of driving monumental growth across diverse sectors.",
+    "image_url": "None",
+    "linkedin_url": "https://linkedin.com/in/placeholder"
+  },
+  {
+    "id": "2",
+    "name": "Jane Doe",
+    "role": "Head of Digital Transformation",
+    "bio": "Expert in guiding legacy enterprises through modern technological evolutions.",
+    "image_url": "None",
+    "linkedin_url": "https://linkedin.com/in/placeholder"
+  }
+]

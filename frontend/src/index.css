@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #F8FAFC;
+  --color-brand-100: #F1F5F9;
+  --color-brand-200: #E2E8F0;
+  --color-brand-300: #CBD5E1;
+  --color-brand-400: #94A3B8;
+  --color-brand-500: #64748B;
+  --color-brand-600: #475569;
+  --color-brand-700: #334155;
+  --color-brand-800: #1D283A;
+  --color-brand-900: #131B2A;
+  --color-brand-950: #0A0F1A;
+
+  --color-accent: #C49B5B;
+  --color-accent-hover: #A67E42;
+  --color-accent-light: #DFBF8B;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Playfair Display', serif;
+}
+
+@layer base {
+  body {
+    background-color: theme('color.white');
+    color: theme('color.brand-900');
+    font-family: theme('font-sans');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Soft scroll behavior */
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: theme('font-display');
+    color: theme('color.brand-950');
+    letter-spacing: -0.01em;
+  }
+
+  /* Make all text selection look premium */
+  ::selection {
+    background-color: theme('color.accent');
+    color: theme('color.white');
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: theme('color.brand-50');
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: theme('color.brand-300');
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('color.accent');
+  }
+}
+
+@layer components {
+
+  /* Premium layout generic classes */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 sm:px-8 lg:px-12;
+  }
+
+  .container-content {
+    @apply max-w-4xl mx-auto px-6 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply text-xs font-bold tracking-[0.2em] text-accent uppercase mb-4 block;
+  }
+
+  /* Executive Button Styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 text-sm font-medium text-white bg-brand-950 border border-brand-950 hover:bg-brand-900 transition-all duration-300 shadow-sm hover:shadow-md;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center px-8 py-4 text-sm font-medium text-white bg-accent border border-accent hover:bg-accent-hover hover:border-accent-hover transition-all duration-300 shadow-sm hover:shadow-md;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-4 text-sm font-medium text-brand-950 bg-transparent border border-brand-300 hover:border-brand-950 hover:bg-brand-50 transition-all duration-300;
+  }
+
+  .btn-outline-dark {
+    @apply inline-flex items-center justify-center px-8 py-4 text-sm font-medium text-white bg-transparent border border-brand-700 hover:border-accent hover:text-accent transition-all duration-300;
+  }
+
+  /* Sophisticated Underline Hover for editorial links */
+  .link-editorial {
+    @apply relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 after:bg-accent after:transition-all after:duration-300 hover:after:w-full hover:text-accent transition-colors;
+  }
+}
