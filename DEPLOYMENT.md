@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This repository is configured to automatically build and deploy the Mir Consultancy website to GitHub Pages using **GitHub Actions**.
+This repository is configured to automatically build and deploy the MIR Consulting website to GitHub Pages using **GitHub Actions**.
 
 ## How It Works
 Because there are no backend servers involved, the entire application has been converted to a **Static Site** using React and Vite. 

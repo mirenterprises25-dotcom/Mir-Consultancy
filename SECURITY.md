@@ -1,7 +1,7 @@
 # Security Policy and Audit Report
 
 ## 1. Security Audit Highlights
-A comprehensive security review of the Mir Consultancy project was conducted prior to deployment on GitHub Pages. The audit covered the frontend React/Vite ecosystem, focusing on XSS vulnerabilities, sensitive data exposure, and unsafe practices.
+A comprehensive security review of the MIR Consulting project was conducted prior to deployment on GitHub Pages. The audit covered the frontend React/Vite ecosystem, focusing on XSS vulnerabilities, sensitive data exposure, and unsafe practices.
 
 - **Cross-Site Scripting (XSS):** The application relies on standard React rendering, which inherently escapes strings. A source code scan confirmed there is no usage of `dangerouslySetInnerHTML`, effectively mitigating DOM-based XSS risks.
 - **Sensitive Data Exposure:** Scans for `.env` files, `VITE_` variables, and hardcoded API keys yielded no exposed secrets.

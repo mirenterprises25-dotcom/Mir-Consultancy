@@ -89,7 +89,7 @@ def seed():
 
     # 6. Pages (About Us Dropdown)
     pages = [
-        models.Page(slug="our-idea", title="Our Idea", content="Mir Consultancy was founded on the principle that true value is created at the intersection of deep industry expertise and innovative technology..."),
+        models.Page(slug="our-idea", title="Our Idea", content="MIR Consulting was founded on the principle that true value is created at the intersection of deep industry expertise and innovative technology..."),
         models.Page(slug="company-future", title="Company Future", content="As part of Mir Enterprises, we are building a scalable ecosystem of businesses that share a unified vision for operational excellence..."),
         models.Page(slug="our-history", title="Our History", content="From a single visionary to a global consulting powerhouse, our journey has been defined by a relentless pursuit of impact...")
     ]

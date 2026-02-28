@@ -6,7 +6,7 @@ import { getInsightBySlug } from '../services/api';
 
 const InsightDetail = () => {
     const { slug } = useParams<{ slug: string }>();
-    const [insight, setInsight] = useState<any>(null);
+    const [insight, setInsight] = useState<Record<string, any> | null>(null);
     const [loading, setLoading] = useState(true);
 
     // Reading progress bar

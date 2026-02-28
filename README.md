@@ -31,7 +31,7 @@ This application employs a modern **Decoupled (Headless) Architecture**:
 ## 4. Folder Structure
 
 ```text
-Mir_Consultancy/
+Mir_Consulting/
 │
 ├── frontend/                  # React Application
 │   ├── src/

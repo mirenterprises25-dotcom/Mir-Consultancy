@@ -1,6 +1,6 @@
 # Editing Guide for Administrators
 
-This guide is designed for administrators who want to edit the content of the Mir Consultancy website **without writing code**. 
+This guide is designed for administrators who want to edit the content of the MIR Consulting website **without writing code**. 
 
 The website uses a **"Serverless Static Data"** architecture. This means all the text, lists, and articles are stored as simple `.json` (JavaScript Object Notation) files. 
 

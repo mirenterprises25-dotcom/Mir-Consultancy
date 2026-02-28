@@ -7,8 +7,8 @@ from routers import api_router
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="Mir Consultancy API",
-    description="API for Mir Consultancy Website Platform",
+    title="MIR Consulting API",
+    description="API for MIR Consulting Website Platform",
     version="1.0.0"
 )
 

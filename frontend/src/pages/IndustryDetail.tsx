@@ -17,7 +17,7 @@ const FadeIn = ({ children, delay = 0, className = "" }: { children: React.React
 
 const IndustryDetail = () => {
     const { slug } = useParams<{ slug: string }>();
-    const [industry, setIndustry] = useState<any>(null);
+    const [industry, setIndustry] = useState<Record<string, any> | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

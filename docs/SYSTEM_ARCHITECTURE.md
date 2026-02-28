@@ -27,7 +27,7 @@ graph TD
 
 ## 4. Data Layer (Persistence)
 - **ORM**: SQLAlchemy 2.0
-- **Development Database**: SQLite (`mir_consultancy.db`). Allows for rapid prototyping and zero-configuration startup.
+- **Development Database**: SQLite (`mir_consulting.db`). Allows for rapid prototyping and zero-configuration startup.
 - **Production Paradigm**: The schema is strictly ANSI-SQL compliant via SQLAlchemy, allowing instant migration to PostgreSQL upon scaling by altering the `.env` `DATABASE_URL`.
 - **Schema Mapping**:
   - `industries`: Top-level categorical identifiers for sector-based engagements.

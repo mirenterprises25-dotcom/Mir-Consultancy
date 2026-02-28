@@ -16,8 +16,8 @@ const FadeIn = ({ children, delay = 0, className = "" }: { children: React.React
 
 const StaticPage = () => {
     const { slug } = useParams<{ slug: string }>();
-    const [pageData, setPageData] = useState<any>(null);
-    const [leadership, setLeadership] = useState<any[]>([]);
+    const [pageData, setPageData] = useState<Record<string, any> | null>(null);
+    const [leadership, setLeadership] = useState<Record<string, any>[]>([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

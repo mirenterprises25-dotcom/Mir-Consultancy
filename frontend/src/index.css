@@ -39,7 +39,6 @@
   h5,
   h6 {
     font-family: theme('font-display');
-    color: theme('color.brand-950');
     letter-spacing: -0.01em;
   }
 

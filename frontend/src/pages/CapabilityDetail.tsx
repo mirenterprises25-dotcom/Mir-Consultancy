@@ -17,7 +17,7 @@ const FadeIn = ({ children, delay = 0, className = "" }: { children: React.React
 
 const CapabilityDetail = () => {
     const { slug } = useParams<{ slug: string }>();
-    const [capability, setCapability] = useState<any>(null);
+    const [capability, setCapability] = useState<Record<string, any> | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

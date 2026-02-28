@@ -16,7 +16,7 @@ const FadeIn = ({ children, delay = 0, className = "" }: { children: React.React
 
 const Insights = () => {
     const [activeCategory, setActiveCategory] = useState<string>('all');
-    const [insights, setInsights] = useState<any[]>([]);
+    const [insights, setInsights] = useState<Record<string, any>[]>([]);
     const [loading, setLoading] = useState(true);
 
     // Hardcode primary categories to maintain visual stability while waiting for API
@@ -32,7 +32,7 @@ const Insights = () => {
         const fetchInsights = async () => {
             setLoading(true);
             try {
-                let allInsights: any[] = [];
+                let allInsights: Record<string, any>[] = [];
                 if (activeCategory === 'all') {
                     // Fetch from all categories (simluated by fetching case-studies and articles)
                     const [csData, artData] = await Promise.all([
